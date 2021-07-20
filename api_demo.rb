@@ -16,11 +16,11 @@ require 'open-uri'
 puts 'what\'s your github username?'
 username = gets.chomp
 
-# url = "https://api.github.com/users/#{username}"
+url = "https://api.github.com/users/#{username}"
 #############################
 
 
-url = 'https://api.github.com/users/tatchiwiggers'
+# url = 'https://api.github.com/users/tatchiwiggers'
 
 # i will use the library open uri to open this url and read the info from it
 user_serialized = URI.open(url).read

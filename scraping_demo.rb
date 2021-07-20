@@ -1,7 +1,7 @@
 require 'open-uri'
 require 'nokogiri'
 
-# Let's scrape recipes from http://www.epicurious.com
+# Let's scrape recipes from http://www.bbcgoodfood.com
 
 ingredient = 'chocolate'
 url = "https://www.bbcgoodfood.com/recipes/chocolate-fudge-crinkle-biscuits"
